@@ -1,0 +1,104 @@
+/* You can add global styles to this file, and also import other style files */
+// @import "primeng/resources/themes/lara-light-blue/theme.css";
+// @import "primeng/resources/primeng.css";
+@import "./assets/styles/components/icon.scss";
+@import 'primeflex/primeflex.scss';
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+/* kanit-300 - thai_latin */
+@font-face {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('~assets/fonts/Kanit/kanit-v7-thai_latin-300.eot');
+    /* IE9 Compat Modes */
+    src: local('Kanit Light'), local('Kanit-Light'),
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-300.eot?#iefix') format('embedded-opentype'),
+      /* IE6-IE8 */
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-300.woff2') format('woff2'),
+      /* Super Modern Browsers */
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-300.woff') format('woff'),
+      /* Modern Browsers */
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-300.ttf') format('truetype'),
+      /* Safari, Android, iOS */
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-300.svg#Kanit') format('svg');
+    /* Legacy iOS */
+  }
+  
+  /* kanit-regular - thai_latin */
+  @font-face {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('~assets/fonts/Kanit/kanit-v7-thai_latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('Kanit Regular'), local('Kanit-Regular'),
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-regular.eot?#iefix') format('embedded-opentype'),
+      /* IE6-IE8 */
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-regular.woff2') format('woff2'),
+      /* Super Modern Browsers */
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-regular.woff') format('woff'),
+      /* Modern Browsers */
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-regular.ttf') format('truetype'),
+      /* Safari, Android, iOS */
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-regular.svg#Kanit') format('svg');
+    /* Legacy iOS */
+  }
+  
+  /* kanit-500 - thai_latin */
+  @font-face {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('~assets/fonts/Kanit/kanit-v7-thai_latin-500.eot');
+    /* IE9 Compat Modes */
+    src: local('Kanit Medium'), local('Kanit-Medium'),
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-500.eot?#iefix') format('embedded-opentype'),
+      /* IE6-IE8 */
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-500.woff2') format('woff2'),
+      /* Super Modern Browsers */
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-500.woff') format('woff'),
+      /* Modern Browsers */
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-500.ttf') format('truetype'),
+      /* Safari, Android, iOS */
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-500.svg#Kanit') format('svg');
+    /* Legacy iOS */
+  }
+  
+  /* kanit-700 - thai_latin */
+  @font-face {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('~assets/fonts/Kanit/kanit-v7-thai_latin-700.eot');
+    /* IE9 Compat Modes */
+    src: local('Kanit Bold'), local('Kanit-Bold'),
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-700.eot?#iefix') format('embedded-opentype'),
+      /* IE6-IE8 */
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-700.woff2') format('woff2'),
+      /* Super Modern Browsers */
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-700.woff') format('woff'),
+      /* Modern Browsers */
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-700.ttf') format('truetype'),
+      /* Safari, Android, iOS */
+      url('~assets/fonts/Kanit/kanit-v7-thai_latin-700.svg#Kanit') format('svg');
+    /* Legacy iOS */
+  }
+  body {
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    // background-color: #F1F1F1;
+    margin: 0px;
+    font-family: "Kanit" !important;
+    font-size: 16px;
+    line-height: 21px;
+    background-attachment: fixed;
+    color: #2B3B47;
+}

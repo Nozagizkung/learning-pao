@@ -1,0 +1,52 @@
+@mixin icon-pattern($icBackgroundTarget, $icWidth: 40px, $icHeight: 40px) {
+    &:before {
+      content: "";
+      background-image: url(#{$icBackgroundTarget});
+      background-size: contain;
+      display: block;
+      width: $icWidth;
+      height: $icHeight;
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: center;
+    }
+  }
+.ci-header-cart {
+    @include icon-pattern("~assets/images/svgs/cart.svg", 40px, 40px);
+}
+.ci-header-down {
+    @include icon-pattern("~assets/images/svgs/down.svg", 36px, 36px);
+}
+.ci-header-home {
+    @include icon-pattern("~assets/images/svgs/home.svg", 36px, 36px);
+}
+.ci-header-right {
+    @include icon-pattern("~assets/images/svgs/right.svg", 36px, 36px);
+}
+.ci-report {
+    @include icon-pattern("~assets/images/svgs/report.svg", 18px, 18px);
+}
+.ci-tel {
+    @include icon-pattern("~assets/images/svgs/tel.svg", 18px, 18px);
+}
+.ci-location {
+    @include icon-pattern("~assets/images/svgs/location.svg", 18px, 18px);
+}
+.ci-mail {
+    @include icon-pattern("~assets/images/svgs/mail.svg", 18px, 18px);
+}
+.ci-header-up {
+    @include icon-pattern("~assets/images/svgs/up-arrow.svg", 36px, 36px);
+}
+.ci-cart-book {
+  @include icon-pattern("~assets/images/svgs/cart-book.svg", 55px, 48px);
+}
+.ci-payment {
+  @include icon-pattern("~assets/images/svgs/payment.svg", 120px, 120px);
+}
+.ci-list-data {
+  @include icon-pattern("~assets/images/svgs/list-data.svg", 46px, 45px);
+}
+.ci-all-icon {
+  @include icon-pattern("~assets/images/svgs/all-activity.svg", 120px, 24px);
+}
